@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h1>Temperature Converter</h1>
+    </header>    
+    <main >
+        <div class="cont">
+            <form action="" onsubmit="covertTemp();return false;">
+
+                <div class="inputclass" >
+                    <h1>Enput</h1>
+                    <input type="number" id="input1" value="0" step="any">
+                <select name="" id="selextInput" name="selextInput">
+                    <option  selected disabled>Choose type</option>
+                    <option value="°C">Celcius</option>
+                <option value="°F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+        </div>
+        <h1>first of all choose you unite of Temperature</h1>
+        <div class=" outputclass " >
+            <h1>output</h1>
+            <input type="text" id="output1">
+            <select name="" id="selectOutput" name="selectOutput">
+                <option  selected disabled>Choose type</option>
+                <option value="°C">Celcius</option>
+                <option value="°F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Convert</button>
+        </div>
+            
+    </form>
+        </div>
+    </main>
+    <footer id="footer">
+        <p>© 2023 Temp-converter™. All Rights Reserved.</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
